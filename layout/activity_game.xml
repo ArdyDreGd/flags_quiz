@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="0dp" >
+
+    <include layout="@layout/title_bar" />
+
+    <RelativeLayout
+        android:id="@+id/topLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleBar"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="35dp" >
+
+        <LinearLayout
+            android:id="@+id/flagLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvSoal"
+                android:layout_width="280dp"
+                android:layout_height="160dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="jladhlashdlashdkdkadkhaskdkjasgdkjasgdjkashdkasdlasjdksadghjkagdlsahfiuadshflhdakflhlDFHADS;FHLIDHFKASFHKSDGFLDSFGLsgfDSlashldashldhalsdhasuldhlashdlasfkjhflsLFsd"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rightHelps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/flagLayout"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageButton
+                android:id="@+id/hide"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/help_clicked"
+                android:scaleType="fitXY"
+                android:src="@drawable/button_hide_game" />
+
+            <ImageButton
+                android:id="@+id/letter"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/help_clicked"
+                android:scaleType="fitXY"
+                android:src="@drawable/button_letter_game" />
+
+            <ImageButton
+                android:id="@+id/solution"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@drawable/help_clicked"
+                android:scaleType="fitXY"
+                android:src="@drawable/button_solution_game" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/spacesGrid1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/spacesGrid2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spacesGrid1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/lettersGrid"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_above="@+id/adView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:columnWidth="30dp"
+        android:gravity="center"
+        android:horizontalSpacing="5dp"
+        android:listSelector="@drawable/letter_grid_selector"
+        android:numColumns="8"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dp" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/adBannerUnitId" />
+
+</RelativeLayout>
