@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tebakan Receh</string>
+    <string name="adBannerUnitId">ca-app-pub-xxxxxxx/xxxxxxx</string>
+    <string name="adInterstitialUnitId">ca-app-pub-xxxxxxx/xxxxxxx</string>
+    <string name="app_id">000</string>
+    <string name="flags_score_leaderboard">xxxxxxx</string>
+
+    <string name="main_font">HOBOSTD.OTF</string>
+    <string name="jmlkotak">16</string>
+    <string name="alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="noGooglePlayMessage">Could not open Android market, please install the market app.</string>
+    <string name="stopLetterHelp">Can\'t add a letter, stop letter help first!</string>
+    <string name="hideHelpDlg">Hapus huruf yang salah!\nBiaya : 5 coin</string>
+    <string name="letterHelpDlg">Tampilkan satu huruf!\nBiaya : 5 coin</string>
+    <string name="solutionHelpDlg">Tampilkan jawaban yang benar!\nCost : 10 coins</string>
+    <string name="noCoinsDlg">Anda tidak memiliki cukup koin!!</string>
+    <string name="correctDlg">Selamat!</string>
+    <string name="wrongDlg">Salah!</string>
+    <string name="rateDlg">Silakan menilai aplikasi kami di google play!</string>
+    <string name="resetDlg">Setelah reset Anda akan kehilangan skor, koin dan jawaban Anda.\nLanjutkan?</string>
+    <string name="exitDlg">Anda yakin ingin keluar?</string>
+    <string name="finishDlg">Kerja bagus!\nAnda telah menjawab semua tebakan.\nNantikan tebakan lain yang lebih receh :)</string>
+    <string name="connectDlgTitle">Internet Connection Error</string>
+    <string name="connectDlgMessage">You have to connect to the internet to get this data then refresh!</string>
+    <string name="connectDlgRefreshBtn">Refresh</string>
+    <string name="connectDlgBackBtn">Back</string>
+    <string name="internetErrorDlgTitle">Internet Connection Error</string>
+    <string name="internetErrorDlgMessage">Please connect to an internet connection!</string>
+    <string name="internetErrorDlgOkBtn">OK</string>
+    <string name="shareDlgTitle">Share via</string>
+    <string name="shareDlgMessage">on Google Play! \n\n</string>
+    <string name="settingsTitle">SETTINGS</string>
+    <string name="soundBtnOn">Sound Effects on</string>
+    <string name="soundBtnOff">Sound Effects off</string>
+    <string name="vibrateBtnOn">Vibration on</string>
+    <string name="vibrateBtnOff">Vibration off</string>
+    <string name="rateBtn">Rate</string>
+    <string name="shareBtn">Share</string>
+    <string name="resetBtn">Reset Game</string>
+    <string name="score">Score</string>
+    <string name="a_h_grup">A H Media Group</string>
+</resources>
